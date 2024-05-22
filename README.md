@@ -112,3 +112,6 @@ Heterogeneous architectures
 **CIFAR-100:**
 
 ![스크린샷 2024-05-22 오전 11.28.19.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/ac6b4015-246d-40f6-bdf6-ff73cecdd114/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.19.png)
+
+**ImageNet-1K**
+<img width="673" alt="스크린샷 2024-05-22 오후 2 14 11" src="https://github.com/jekim5418/TopKD/assets/60121575/a78897d0-d744-48a6-bc4b-870d8a895653">
