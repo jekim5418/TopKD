@@ -6,10 +6,10 @@
 ![architecture (1)](https://github.com/jekim5418/TopKD/assets/60121575/97a120bd-9245-4c41-9d0b-d04f9d4980ed)
 
 > Do Topological Characteristics Help in Knowledge Distillation?
-
-International Conference on Machine Learning (ICML) 2024
-Jungeun Kim*,  Junwon You*, Dongjin Lee*, Ha Young Kim, Jae-Hun Jung
-Yonsei University & POSTECH
+>
+>International Conference on Machine Learning (ICML) 2024
+>Jungeun Kim*,  Junwon You*, Dongjin Lee*, Ha Young Kim, Jae-Hun Jung
+>Yonsei University & POSTECH
 >
 
 ## Abstract
