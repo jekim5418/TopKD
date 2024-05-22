@@ -3,7 +3,7 @@
 
 [[Paper]](💥)
 
-![architecture.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/249207a0-adf7-4d67-a185-e3ab4a927f28/architecture.png)
+![architecture](https://github.com/jekim5418/TopKD/assets/60121575/0c8e36ab-53ef-4739-8204-7fc417bbd7a7)
 
 > Do Topological Characteristics Help in Knowledge Distillation?
 
@@ -83,21 +83,21 @@ We included the weights and PI of some teacher networks, WRN-40-2 and ResNet56, 
 
 Homogeneous architectures
 
-![스크린샷 2024-05-22 오전 11.25.15.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/8e15960d-1fd8-414c-95d2-2a79c370cea8/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.25.15.png)
+<img width="771" alt="스크린샷 2024-05-22 오전 11 25 15" src="https://github.com/jekim5418/TopKD/assets/60121575/5b26ac5d-40ae-42a8-9e86-dcd74a22b840">
 
 Heterogeneous architectures
 
-![스크린샷 2024-05-22 오전 11.26.13.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/6fd3f667-de88-4c8f-abed-cd352696bd90/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.26.13.png)
+<img width="783" alt="스크린샷 2024-05-22 오전 11 26 13" src="https://github.com/jekim5418/TopKD/assets/60121575/81f30edc-c61c-42ac-a635-9c2d542da157">
 
 ### Results on ImageNet-1K:
 
 Homogeneous architectures
 
-![스크린샷 2024-05-22 오전 11.26.23.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/ea012321-93eb-4427-a35f-5d903c2fd022/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.26.23.png)
+<img width="737" alt="스크린샷 2024-05-22 오전 11 26 23" src="https://github.com/jekim5418/TopKD/assets/60121575/2eb1610a-b6b6-49ba-8949-a3be4cd5041e">
 
 Heterogeneous architectures
 
-![스크린샷 2024-05-22 오전 11.26.35.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/4c0d6e48-ef59-4ffa-bee7-c9d90616f781/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.26.35.png)
+<img width="676" alt="스크린샷 2024-05-22 오전 11 26 35" src="https://github.com/jekim5418/TopKD/assets/60121575/cfca7415-812b-4b64-be69-22001f934efb">
 
 ## Visualization
 
@@ -105,13 +105,14 @@ Heterogeneous architectures
 
 **Teacher: VGG13, student: MobileNetV2**
 
-![스크린샷 2024-05-22 오전 11.28.01.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/81526018-9d5a-471e-8b3d-f5a8dcd98925/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.01.png)
+<img width="550" alt="스크린샷 2024-05-22 오전 11 28 01" src="https://github.com/jekim5418/TopKD/assets/60121575/96e3c404-2e69-4ca8-ae43-4c98e3689bf3">
 
 ### UMAP
 
 **CIFAR-100:**
 
-![스크린샷 2024-05-22 오전 11.28.19.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/000722fa-64b3-42e8-b73e-280be5fafebc/ac6b4015-246d-40f6-bdf6-ff73cecdd114/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2024-05-22_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.28.19.png)
+<img width="689" alt="스크린샷 2024-05-22 오전 11 28 19" src="https://github.com/jekim5418/TopKD/assets/60121575/da2ede80-1380-4818-b8c2-a3b5d577a069">
 
 **ImageNet-1K**
+
 <img width="673" alt="스크린샷 2024-05-22 오후 2 14 11" src="https://github.com/jekim5418/TopKD/assets/60121575/a78897d0-d744-48a6-bc4b-870d8a895653">
