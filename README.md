@@ -3,7 +3,7 @@
 
 [[Paper]](💥)
 
-![architecture](https://github.com/jekim5418/TopKD/assets/60121575/0c8e36ab-53ef-4739-8204-7fc417bbd7a7)
+![architecture (1)](https://github.com/jekim5418/TopKD/assets/60121575/97a120bd-9245-4c41-9d0b-d04f9d4980ed)
 
 > Do Topological Characteristics Help in Knowledge Distillation?
 
