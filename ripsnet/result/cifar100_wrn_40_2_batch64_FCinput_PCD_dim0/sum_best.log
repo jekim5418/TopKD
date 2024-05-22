@@ -1,0 +1,1293 @@
+C:/Users/master/OneDrive - postech.ac.kr/Research/TDA_KD(연세대공동연구)/실험파일
+Namespace(epochs=25000, lr=0.0005, print_freq=200, min_delta=1e-10, train_ratio=0.75, units_list=[128, 128, 64, 64, 50, 100, 200, 400], operator='sum', dim=0, input_dir='ripsnetdata/cifar100_wrn_40_2_batch64_FCinput_PCD.npy', output_dir='ripsnetdata/cifar100_wrn_40_2_batch64_FCinput_PI_dim0.npy', rips_trial=0, norm=True, train_bs=64, val_bs=32, log_dir='new_result/cifar100_wrn_40_2_batch64_FCinput_PCD_dim0')
+DenseNet(
+  (layer1): DenseRagged(
+    (linear): Linear(in_features=128, out_features=128, bias=True)
+    (activation): ReLU(inplace=True)
+  )
+  (layer2): DenseRagged(
+    (linear): Linear(in_features=128, out_features=64, bias=True)
+    (activation): ReLU(inplace=True)
+  )
+  (layer3): DenseRagged(
+    (linear): Linear(in_features=64, out_features=64, bias=True)
+    (activation): ReLU(inplace=True)
+  )
+  (layer4): DenseRagged(
+    (linear): Linear(in_features=64, out_features=50, bias=False)
+    (activation): ReLU(inplace=True)
+  )
+  (layer5): DenseRagged(
+    (linear): Linear(in_features=50, out_features=100, bias=False)
+    (activation): ReLU(inplace=True)
+  )
+  (layer6): DenseRagged(
+    (linear): Linear(in_features=100, out_features=200, bias=False)
+    (activation): ReLU(inplace=True)
+  )
+  (layer7): DenseRagged(
+    (linear): Linear(in_features=200, out_features=400, bias=False)
+    (activation): Sigmoid()
+  )
+)
+The number of RipsNet parameters: 137128
+Epoch    0/25000 Batch 1/2343 Cost: 0.181659
+Epoch    0/25000 Batch 201/2343 Cost: 0.001888
+Epoch    0/25000 Batch 401/2343 Cost: 0.001635
+Epoch    0/25000 Batch 601/2343 Cost: 0.001808
+Epoch    0/25000 Batch 801/2343 Cost: 0.001599
+Epoch    0/25000 Batch 1001/2343 Cost: 0.001846
+Epoch    0/25000 Batch 1201/2343 Cost: 0.001967
+Epoch    0/25000 Batch 1401/2343 Cost: 0.001532
+Epoch    0/25000 Batch 1601/2343 Cost: 0.001747
+Epoch    0/25000 Batch 1801/2343 Cost: 0.001624
+Epoch    0/25000 Batch 2001/2343 Cost: 0.001784
+Epoch    0/25000 Batch 2201/2343 Cost: 0.001803
+Validation loss: 0.001705
+saving the best model!
+Epoch    1/25000 Batch 1/2343 Cost: 0.001801
+Epoch    1/25000 Batch 201/2343 Cost: 0.001602
+Epoch    1/25000 Batch 401/2343 Cost: 0.001804
+Epoch    1/25000 Batch 601/2343 Cost: 0.001386
+Epoch    1/25000 Batch 801/2343 Cost: 0.001798
+Epoch    1/25000 Batch 1001/2343 Cost: 0.001883
+Epoch    1/25000 Batch 1201/2343 Cost: 0.001782
+Epoch    1/25000 Batch 1401/2343 Cost: 0.001719
+Epoch    1/25000 Batch 1601/2343 Cost: 0.001747
+Epoch    1/25000 Batch 1801/2343 Cost: 0.001873
+Epoch    1/25000 Batch 2001/2343 Cost: 0.002005
+Epoch    1/25000 Batch 2201/2343 Cost: 0.001321
+Validation loss: 0.001507
+saving the best model!
+Epoch    2/25000 Batch 1/2343 Cost: 0.001453
+Epoch    2/25000 Batch 201/2343 Cost: 0.001741
+Epoch    2/25000 Batch 401/2343 Cost: 0.001386
+Epoch    2/25000 Batch 601/2343 Cost: 0.001257
+Epoch    2/25000 Batch 801/2343 Cost: 0.001597
+Epoch    2/25000 Batch 1001/2343 Cost: 0.001278
+Epoch    2/25000 Batch 1201/2343 Cost: 0.001399
+Epoch    2/25000 Batch 1401/2343 Cost: 0.001562
+Epoch    2/25000 Batch 1601/2343 Cost: 0.001478
+Epoch    2/25000 Batch 1801/2343 Cost: 0.001552
+Epoch    2/25000 Batch 2001/2343 Cost: 0.001428
+Epoch    2/25000 Batch 2201/2343 Cost: 0.001431
+Validation loss: 0.001482
+saving the best model!
+Epoch    3/25000 Batch 1/2343 Cost: 0.001829
+Epoch    3/25000 Batch 201/2343 Cost: 0.001398
+Epoch    3/25000 Batch 401/2343 Cost: 0.001819
+Epoch    3/25000 Batch 601/2343 Cost: 0.001371
+Epoch    3/25000 Batch 801/2343 Cost: 0.001282
+Epoch    3/25000 Batch 1001/2343 Cost: 0.001644
+Epoch    3/25000 Batch 1201/2343 Cost: 0.001330
+Epoch    3/25000 Batch 1401/2343 Cost: 0.001465
+Epoch    3/25000 Batch 1601/2343 Cost: 0.001361
+Epoch    3/25000 Batch 1801/2343 Cost: 0.001342
+Epoch    3/25000 Batch 2001/2343 Cost: 0.001439
+Epoch    3/25000 Batch 2201/2343 Cost: 0.001712
+Validation loss: 0.001530
+EarlyStopping counter: 1 out of 50
+Epoch    4/25000 Batch 1/2343 Cost: 0.001407
+Epoch    4/25000 Batch 201/2343 Cost: 0.001397
+Epoch    4/25000 Batch 401/2343 Cost: 0.001550
+Epoch    4/25000 Batch 601/2343 Cost: 0.001701
+Epoch    4/25000 Batch 801/2343 Cost: 0.001419
+Epoch    4/25000 Batch 1001/2343 Cost: 0.001470
+Epoch    4/25000 Batch 1201/2343 Cost: 0.001433
+Epoch    4/25000 Batch 1401/2343 Cost: 0.001657
+Epoch    4/25000 Batch 1601/2343 Cost: 0.001546
+Epoch    4/25000 Batch 1801/2343 Cost: 0.001364
+Epoch    4/25000 Batch 2001/2343 Cost: 0.001501
+Epoch    4/25000 Batch 2201/2343 Cost: 0.001506
+Validation loss: 0.001451
+saving the best model!
+Epoch    5/25000 Batch 1/2343 Cost: 0.001717
+Epoch    5/25000 Batch 201/2343 Cost: 0.001324
+Epoch    5/25000 Batch 401/2343 Cost: 0.001706
+Epoch    5/25000 Batch 601/2343 Cost: 0.001362
+Epoch    5/25000 Batch 801/2343 Cost: 0.001387
+Epoch    5/25000 Batch 1001/2343 Cost: 0.001402
+Epoch    5/25000 Batch 1201/2343 Cost: 0.001623
+Epoch    5/25000 Batch 1401/2343 Cost: 0.001373
+Epoch    5/25000 Batch 1601/2343 Cost: 0.001301
+Epoch    5/25000 Batch 1801/2343 Cost: 0.001420
+Epoch    5/25000 Batch 2001/2343 Cost: 0.001550
+Epoch    5/25000 Batch 2201/2343 Cost: 0.001524
+Validation loss: 0.001490
+EarlyStopping counter: 1 out of 50
+Epoch    6/25000 Batch 1/2343 Cost: 0.001626
+Epoch    6/25000 Batch 201/2343 Cost: 0.001431
+Epoch    6/25000 Batch 401/2343 Cost: 0.001254
+Epoch    6/25000 Batch 601/2343 Cost: 0.001565
+Epoch    6/25000 Batch 801/2343 Cost: 0.001491
+Epoch    6/25000 Batch 1001/2343 Cost: 0.001291
+Epoch    6/25000 Batch 1201/2343 Cost: 0.001200
+Epoch    6/25000 Batch 1401/2343 Cost: 0.001362
+Epoch    6/25000 Batch 1601/2343 Cost: 0.001500
+Epoch    6/25000 Batch 1801/2343 Cost: 0.001174
+Epoch    6/25000 Batch 2001/2343 Cost: 0.001319
+Epoch    6/25000 Batch 2201/2343 Cost: 0.001336
+Validation loss: 0.001337
+saving the best model!
+Epoch    7/25000 Batch 1/2343 Cost: 0.001220
+Epoch    7/25000 Batch 201/2343 Cost: 0.001405
+Epoch    7/25000 Batch 401/2343 Cost: 0.001271
+Epoch    7/25000 Batch 601/2343 Cost: 0.001394
+Epoch    7/25000 Batch 801/2343 Cost: 0.001373
+Epoch    7/25000 Batch 1001/2343 Cost: 0.001394
+Epoch    7/25000 Batch 1201/2343 Cost: 0.001214
+Epoch    7/25000 Batch 1401/2343 Cost: 0.001308
+Epoch    7/25000 Batch 1601/2343 Cost: 0.001440
+Epoch    7/25000 Batch 1801/2343 Cost: 0.001451
+Epoch    7/25000 Batch 2001/2343 Cost: 0.001134
+Epoch    7/25000 Batch 2201/2343 Cost: 0.001523
+Validation loss: 0.001297
+saving the best model!
+Epoch    8/25000 Batch 1/2343 Cost: 0.001342
+Epoch    8/25000 Batch 201/2343 Cost: 0.001170
+Epoch    8/25000 Batch 401/2343 Cost: 0.001382
+Epoch    8/25000 Batch 601/2343 Cost: 0.001572
+Epoch    8/25000 Batch 801/2343 Cost: 0.001327
+Epoch    8/25000 Batch 1001/2343 Cost: 0.001303
+Epoch    8/25000 Batch 1201/2343 Cost: 0.001372
+Epoch    8/25000 Batch 1401/2343 Cost: 0.001222
+Epoch    8/25000 Batch 1601/2343 Cost: 0.001340
+Epoch    8/25000 Batch 1801/2343 Cost: 0.001071
+Epoch    8/25000 Batch 2001/2343 Cost: 0.001197
+Epoch    8/25000 Batch 2201/2343 Cost: 0.001236
+Validation loss: 0.001261
+saving the best model!
+Epoch    9/25000 Batch 1/2343 Cost: 0.001124
+Epoch    9/25000 Batch 201/2343 Cost: 0.001158
+Epoch    9/25000 Batch 401/2343 Cost: 0.001279
+Epoch    9/25000 Batch 601/2343 Cost: 0.001168
+Epoch    9/25000 Batch 801/2343 Cost: 0.001438
+Epoch    9/25000 Batch 1001/2343 Cost: 0.000947
+Epoch    9/25000 Batch 1201/2343 Cost: 0.001347
+Epoch    9/25000 Batch 1401/2343 Cost: 0.001118
+Epoch    9/25000 Batch 1601/2343 Cost: 0.001193
+Epoch    9/25000 Batch 1801/2343 Cost: 0.001146
+Epoch    9/25000 Batch 2001/2343 Cost: 0.001143
+Epoch    9/25000 Batch 2201/2343 Cost: 0.001195
+Validation loss: 0.001249
+saving the best model!
+Epoch   10/25000 Batch 1/2343 Cost: 0.001237
+Epoch   10/25000 Batch 201/2343 Cost: 0.001239
+Epoch   10/25000 Batch 401/2343 Cost: 0.001159
+Epoch   10/25000 Batch 601/2343 Cost: 0.001110
+Epoch   10/25000 Batch 801/2343 Cost: 0.001146
+Epoch   10/25000 Batch 1001/2343 Cost: 0.001344
+Epoch   10/25000 Batch 1201/2343 Cost: 0.001140
+Epoch   10/25000 Batch 1401/2343 Cost: 0.001235
+Epoch   10/25000 Batch 1601/2343 Cost: 0.001268
+Epoch   10/25000 Batch 1801/2343 Cost: 0.001120
+Epoch   10/25000 Batch 2001/2343 Cost: 0.001498
+Epoch   10/25000 Batch 2201/2343 Cost: 0.001252
+Validation loss: 0.001255
+EarlyStopping counter: 1 out of 50
+Epoch   11/25000 Batch 1/2343 Cost: 0.001179
+Epoch   11/25000 Batch 201/2343 Cost: 0.001387
+Epoch   11/25000 Batch 401/2343 Cost: 0.001272
+Epoch   11/25000 Batch 601/2343 Cost: 0.001132
+Epoch   11/25000 Batch 801/2343 Cost: 0.001178
+Epoch   11/25000 Batch 1001/2343 Cost: 0.001272
+Epoch   11/25000 Batch 1201/2343 Cost: 0.001185
+Epoch   11/25000 Batch 1401/2343 Cost: 0.001335
+Epoch   11/25000 Batch 1601/2343 Cost: 0.001366
+Epoch   11/25000 Batch 1801/2343 Cost: 0.001206
+Epoch   11/25000 Batch 2001/2343 Cost: 0.001109
+Epoch   11/25000 Batch 2201/2343 Cost: 0.001213
+Validation loss: 0.001220
+saving the best model!
+Epoch   12/25000 Batch 1/2343 Cost: 0.001178
+Epoch   12/25000 Batch 201/2343 Cost: 0.001201
+Epoch   12/25000 Batch 401/2343 Cost: 0.001190
+Epoch   12/25000 Batch 601/2343 Cost: 0.001206
+Epoch   12/25000 Batch 801/2343 Cost: 0.001135
+Epoch   12/25000 Batch 1001/2343 Cost: 0.001287
+Epoch   12/25000 Batch 1201/2343 Cost: 0.001066
+Epoch   12/25000 Batch 1401/2343 Cost: 0.001096
+Epoch   12/25000 Batch 1601/2343 Cost: 0.001130
+Epoch   12/25000 Batch 1801/2343 Cost: 0.001346
+Epoch   12/25000 Batch 2001/2343 Cost: 0.001248
+Epoch   12/25000 Batch 2201/2343 Cost: 0.001263
+Validation loss: 0.001211
+saving the best model!
+Epoch   13/25000 Batch 1/2343 Cost: 0.001197
+Epoch   13/25000 Batch 201/2343 Cost: 0.001121
+Epoch   13/25000 Batch 401/2343 Cost: 0.001213
+Epoch   13/25000 Batch 601/2343 Cost: 0.001195
+Epoch   13/25000 Batch 801/2343 Cost: 0.001078
+Epoch   13/25000 Batch 1001/2343 Cost: 0.001336
+Epoch   13/25000 Batch 1201/2343 Cost: 0.001277
+Epoch   13/25000 Batch 1401/2343 Cost: 0.001309
+Epoch   13/25000 Batch 1601/2343 Cost: 0.001044
+Epoch   13/25000 Batch 1801/2343 Cost: 0.001274
+Epoch   13/25000 Batch 2001/2343 Cost: 0.001199
+Epoch   13/25000 Batch 2201/2343 Cost: 0.001316
+Validation loss: 0.001235
+EarlyStopping counter: 1 out of 50
+Epoch   14/25000 Batch 1/2343 Cost: 0.001161
+Epoch   14/25000 Batch 201/2343 Cost: 0.001148
+Epoch   14/25000 Batch 401/2343 Cost: 0.001057
+Epoch   14/25000 Batch 601/2343 Cost: 0.001093
+Epoch   14/25000 Batch 801/2343 Cost: 0.001211
+Epoch   14/25000 Batch 1001/2343 Cost: 0.001218
+Epoch   14/25000 Batch 1201/2343 Cost: 0.001192
+Epoch   14/25000 Batch 1401/2343 Cost: 0.001188
+Epoch   14/25000 Batch 1601/2343 Cost: 0.001275
+Epoch   14/25000 Batch 1801/2343 Cost: 0.001140
+Epoch   14/25000 Batch 2001/2343 Cost: 0.001189
+Epoch   14/25000 Batch 2201/2343 Cost: 0.001257
+Validation loss: 0.001234
+EarlyStopping counter: 2 out of 50
+Epoch   15/25000 Batch 1/2343 Cost: 0.001220
+Epoch   15/25000 Batch 201/2343 Cost: 0.001278
+Epoch   15/25000 Batch 401/2343 Cost: 0.001069
+Epoch   15/25000 Batch 601/2343 Cost: 0.001507
+Epoch   15/25000 Batch 801/2343 Cost: 0.001105
+Epoch   15/25000 Batch 1001/2343 Cost: 0.001010
+Epoch   15/25000 Batch 1201/2343 Cost: 0.001146
+Epoch   15/25000 Batch 1401/2343 Cost: 0.001191
+Epoch   15/25000 Batch 1601/2343 Cost: 0.001167
+Epoch   15/25000 Batch 1801/2343 Cost: 0.001209
+Epoch   15/25000 Batch 2001/2343 Cost: 0.001085
+Epoch   15/25000 Batch 2201/2343 Cost: 0.001222
+Validation loss: 0.001207
+saving the best model!
+Epoch   16/25000 Batch 1/2343 Cost: 0.001291
+Epoch   16/25000 Batch 201/2343 Cost: 0.001081
+Epoch   16/25000 Batch 401/2343 Cost: 0.001450
+Epoch   16/25000 Batch 601/2343 Cost: 0.001080
+Epoch   16/25000 Batch 801/2343 Cost: 0.001044
+Epoch   16/25000 Batch 1001/2343 Cost: 0.001226
+Epoch   16/25000 Batch 1201/2343 Cost: 0.001074
+Epoch   16/25000 Batch 1401/2343 Cost: 0.001308
+Epoch   16/25000 Batch 1601/2343 Cost: 0.000936
+Epoch   16/25000 Batch 1801/2343 Cost: 0.001064
+Epoch   16/25000 Batch 2001/2343 Cost: 0.001237
+Epoch   16/25000 Batch 2201/2343 Cost: 0.001232
+Validation loss: 0.001220
+EarlyStopping counter: 1 out of 50
+Epoch   17/25000 Batch 1/2343 Cost: 0.001427
+Epoch   17/25000 Batch 201/2343 Cost: 0.001095
+Epoch   17/25000 Batch 401/2343 Cost: 0.001106
+Epoch   17/25000 Batch 601/2343 Cost: 0.001181
+Epoch   17/25000 Batch 801/2343 Cost: 0.001093
+Epoch   17/25000 Batch 1001/2343 Cost: 0.001158
+Epoch   17/25000 Batch 1201/2343 Cost: 0.001320
+Epoch   17/25000 Batch 1401/2343 Cost: 0.001127
+Epoch   17/25000 Batch 1601/2343 Cost: 0.001230
+Epoch   17/25000 Batch 1801/2343 Cost: 0.001056
+Epoch   17/25000 Batch 2001/2343 Cost: 0.001323
+Epoch   17/25000 Batch 2201/2343 Cost: 0.001237
+Validation loss: 0.001204
+saving the best model!
+Epoch   18/25000 Batch 1/2343 Cost: 0.001195
+Epoch   18/25000 Batch 201/2343 Cost: 0.001033
+Epoch   18/25000 Batch 401/2343 Cost: 0.001361
+Epoch   18/25000 Batch 601/2343 Cost: 0.001072
+Epoch   18/25000 Batch 801/2343 Cost: 0.001165
+Epoch   18/25000 Batch 1001/2343 Cost: 0.001140
+Epoch   18/25000 Batch 1201/2343 Cost: 0.001080
+Epoch   18/25000 Batch 1401/2343 Cost: 0.001227
+Epoch   18/25000 Batch 1601/2343 Cost: 0.001142
+Epoch   18/25000 Batch 1801/2343 Cost: 0.001246
+Epoch   18/25000 Batch 2001/2343 Cost: 0.001122
+Epoch   18/25000 Batch 2201/2343 Cost: 0.001143
+Validation loss: 0.001203
+saving the best model!
+Epoch   19/25000 Batch 1/2343 Cost: 0.001127
+Epoch   19/25000 Batch 201/2343 Cost: 0.001219
+Epoch   19/25000 Batch 401/2343 Cost: 0.001150
+Epoch   19/25000 Batch 601/2343 Cost: 0.001166
+Epoch   19/25000 Batch 801/2343 Cost: 0.001174
+Epoch   19/25000 Batch 1001/2343 Cost: 0.001280
+Epoch   19/25000 Batch 1201/2343 Cost: 0.001325
+Epoch   19/25000 Batch 1401/2343 Cost: 0.001162
+Epoch   19/25000 Batch 1601/2343 Cost: 0.001077
+Epoch   19/25000 Batch 1801/2343 Cost: 0.001139
+Epoch   19/25000 Batch 2001/2343 Cost: 0.001142
+Epoch   19/25000 Batch 2201/2343 Cost: 0.001131
+Validation loss: 0.001184
+saving the best model!
+Epoch   20/25000 Batch 1/2343 Cost: 0.001249
+Epoch   20/25000 Batch 201/2343 Cost: 0.001047
+Epoch   20/25000 Batch 401/2343 Cost: 0.001113
+Epoch   20/25000 Batch 601/2343 Cost: 0.001157
+Epoch   20/25000 Batch 801/2343 Cost: 0.001104
+Epoch   20/25000 Batch 1001/2343 Cost: 0.001082
+Epoch   20/25000 Batch 1201/2343 Cost: 0.001292
+Epoch   20/25000 Batch 1401/2343 Cost: 0.001092
+Epoch   20/25000 Batch 1601/2343 Cost: 0.001273
+Epoch   20/25000 Batch 1801/2343 Cost: 0.001088
+Epoch   20/25000 Batch 2001/2343 Cost: 0.001251
+Epoch   20/25000 Batch 2201/2343 Cost: 0.001103
+Validation loss: 0.001172
+saving the best model!
+Epoch   21/25000 Batch 1/2343 Cost: 0.001260
+Epoch   21/25000 Batch 201/2343 Cost: 0.001271
+Epoch   21/25000 Batch 401/2343 Cost: 0.001134
+Epoch   21/25000 Batch 601/2343 Cost: 0.001157
+Epoch   21/25000 Batch 801/2343 Cost: 0.001133
+Epoch   21/25000 Batch 1001/2343 Cost: 0.000989
+Epoch   21/25000 Batch 1201/2343 Cost: 0.001350
+Epoch   21/25000 Batch 1401/2343 Cost: 0.001337
+Epoch   21/25000 Batch 1601/2343 Cost: 0.001257
+Epoch   21/25000 Batch 1801/2343 Cost: 0.001224
+Epoch   21/25000 Batch 2001/2343 Cost: 0.001052
+Epoch   21/25000 Batch 2201/2343 Cost: 0.001072
+Validation loss: 0.001202
+EarlyStopping counter: 1 out of 50
+Epoch   22/25000 Batch 1/2343 Cost: 0.001226
+Epoch   22/25000 Batch 201/2343 Cost: 0.001113
+Epoch   22/25000 Batch 401/2343 Cost: 0.001101
+Epoch   22/25000 Batch 601/2343 Cost: 0.001098
+Epoch   22/25000 Batch 801/2343 Cost: 0.001164
+Epoch   22/25000 Batch 1001/2343 Cost: 0.001159
+Epoch   22/25000 Batch 1201/2343 Cost: 0.001073
+Epoch   22/25000 Batch 1401/2343 Cost: 0.000974
+Epoch   22/25000 Batch 1601/2343 Cost: 0.001064
+Epoch   22/25000 Batch 1801/2343 Cost: 0.001185
+Epoch   22/25000 Batch 2001/2343 Cost: 0.001224
+Epoch   22/25000 Batch 2201/2343 Cost: 0.001152
+Validation loss: 0.001172
+EarlyStopping counter: 2 out of 50
+Epoch   23/25000 Batch 1/2343 Cost: 0.001003
+Epoch   23/25000 Batch 201/2343 Cost: 0.001175
+Epoch   23/25000 Batch 401/2343 Cost: 0.001159
+Epoch   23/25000 Batch 601/2343 Cost: 0.001319
+Epoch   23/25000 Batch 801/2343 Cost: 0.001080
+Epoch   23/25000 Batch 1001/2343 Cost: 0.001166
+Epoch   23/25000 Batch 1201/2343 Cost: 0.001260
+Epoch   23/25000 Batch 1401/2343 Cost: 0.001190
+Epoch   23/25000 Batch 1601/2343 Cost: 0.001045
+Epoch   23/25000 Batch 1801/2343 Cost: 0.001188
+Epoch   23/25000 Batch 2001/2343 Cost: 0.001032
+Epoch   23/25000 Batch 2201/2343 Cost: 0.001093
+Validation loss: 0.001179
+EarlyStopping counter: 3 out of 50
+Epoch   24/25000 Batch 1/2343 Cost: 0.001018
+Epoch   24/25000 Batch 201/2343 Cost: 0.001003
+Epoch   24/25000 Batch 401/2343 Cost: 0.000974
+Epoch   24/25000 Batch 601/2343 Cost: 0.001076
+Epoch   24/25000 Batch 801/2343 Cost: 0.001030
+Epoch   24/25000 Batch 1001/2343 Cost: 0.001132
+Epoch   24/25000 Batch 1201/2343 Cost: 0.001151
+Epoch   24/25000 Batch 1401/2343 Cost: 0.000980
+Epoch   24/25000 Batch 1601/2343 Cost: 0.001372
+Epoch   24/25000 Batch 1801/2343 Cost: 0.001072
+Epoch   24/25000 Batch 2001/2343 Cost: 0.001143
+Epoch   24/25000 Batch 2201/2343 Cost: 0.001191
+Validation loss: 0.001353
+EarlyStopping counter: 4 out of 50
+Epoch   25/25000 Batch 1/2343 Cost: 0.001248
+Epoch   25/25000 Batch 201/2343 Cost: 0.001093
+Epoch   25/25000 Batch 401/2343 Cost: 0.001199
+Epoch   25/25000 Batch 601/2343 Cost: 0.001182
+Epoch   25/25000 Batch 801/2343 Cost: 0.001172
+Epoch   25/25000 Batch 1001/2343 Cost: 0.001160
+Epoch   25/25000 Batch 1201/2343 Cost: 0.001305
+Epoch   25/25000 Batch 1401/2343 Cost: 0.001070
+Epoch   25/25000 Batch 1601/2343 Cost: 0.000993
+Epoch   25/25000 Batch 1801/2343 Cost: 0.001193
+Epoch   25/25000 Batch 2001/2343 Cost: 0.001059
+Epoch   25/25000 Batch 2201/2343 Cost: 0.001204
+Validation loss: 0.001173
+EarlyStopping counter: 5 out of 50
+Epoch   26/25000 Batch 1/2343 Cost: 0.000990
+Epoch   26/25000 Batch 201/2343 Cost: 0.001227
+Epoch   26/25000 Batch 401/2343 Cost: 0.001034
+Epoch   26/25000 Batch 601/2343 Cost: 0.001252
+Epoch   26/25000 Batch 801/2343 Cost: 0.001185
+Epoch   26/25000 Batch 1001/2343 Cost: 0.001029
+Epoch   26/25000 Batch 1201/2343 Cost: 0.001193
+Epoch   26/25000 Batch 1401/2343 Cost: 0.001221
+Epoch   26/25000 Batch 1601/2343 Cost: 0.001341
+Epoch   26/25000 Batch 1801/2343 Cost: 0.001078
+Epoch   26/25000 Batch 2001/2343 Cost: 0.001041
+Epoch   26/25000 Batch 2201/2343 Cost: 0.001142
+Validation loss: 0.001161
+saving the best model!
+Epoch   27/25000 Batch 1/2343 Cost: 0.001078
+Epoch   27/25000 Batch 201/2343 Cost: 0.001026
+Epoch   27/25000 Batch 401/2343 Cost: 0.001236
+Epoch   27/25000 Batch 601/2343 Cost: 0.001163
+Epoch   27/25000 Batch 801/2343 Cost: 0.001121
+Epoch   27/25000 Batch 1001/2343 Cost: 0.001215
+Epoch   27/25000 Batch 1201/2343 Cost: 0.001049
+Epoch   27/25000 Batch 1401/2343 Cost: 0.001116
+Epoch   27/25000 Batch 1601/2343 Cost: 0.001126
+Epoch   27/25000 Batch 1801/2343 Cost: 0.001221
+Epoch   27/25000 Batch 2001/2343 Cost: 0.001233
+Epoch   27/25000 Batch 2201/2343 Cost: 0.001136
+Validation loss: 0.001172
+EarlyStopping counter: 1 out of 50
+Epoch   28/25000 Batch 1/2343 Cost: 0.001217
+Epoch   28/25000 Batch 201/2343 Cost: 0.000946
+Epoch   28/25000 Batch 401/2343 Cost: 0.001247
+Epoch   28/25000 Batch 601/2343 Cost: 0.001058
+Epoch   28/25000 Batch 801/2343 Cost: 0.001141
+Epoch   28/25000 Batch 1001/2343 Cost: 0.001081
+Epoch   28/25000 Batch 1201/2343 Cost: 0.001213
+Epoch   28/25000 Batch 1401/2343 Cost: 0.001028
+Epoch   28/25000 Batch 1601/2343 Cost: 0.001259
+Epoch   28/25000 Batch 1801/2343 Cost: 0.001122
+Epoch   28/25000 Batch 2001/2343 Cost: 0.001199
+Epoch   28/25000 Batch 2201/2343 Cost: 0.001085
+Validation loss: 0.001158
+saving the best model!
+Epoch   29/25000 Batch 1/2343 Cost: 0.000994
+Epoch   29/25000 Batch 201/2343 Cost: 0.001166
+Epoch   29/25000 Batch 401/2343 Cost: 0.001185
+Epoch   29/25000 Batch 601/2343 Cost: 0.001006
+Epoch   29/25000 Batch 801/2343 Cost: 0.001018
+Epoch   29/25000 Batch 1001/2343 Cost: 0.001118
+Epoch   29/25000 Batch 1201/2343 Cost: 0.001005
+Epoch   29/25000 Batch 1401/2343 Cost: 0.001084
+Epoch   29/25000 Batch 1601/2343 Cost: 0.000955
+Epoch   29/25000 Batch 1801/2343 Cost: 0.001240
+Epoch   29/25000 Batch 2001/2343 Cost: 0.001112
+Epoch   29/25000 Batch 2201/2343 Cost: 0.001129
+Validation loss: 0.001168
+EarlyStopping counter: 1 out of 50
+Epoch   30/25000 Batch 1/2343 Cost: 0.001004
+Epoch   30/25000 Batch 201/2343 Cost: 0.001124
+Epoch   30/25000 Batch 401/2343 Cost: 0.001165
+Epoch   30/25000 Batch 601/2343 Cost: 0.001009
+Epoch   30/25000 Batch 801/2343 Cost: 0.001157
+Epoch   30/25000 Batch 1001/2343 Cost: 0.000979
+Epoch   30/25000 Batch 1201/2343 Cost: 0.001114
+Epoch   30/25000 Batch 1401/2343 Cost: 0.001162
+Epoch   30/25000 Batch 1601/2343 Cost: 0.000991
+Epoch   30/25000 Batch 1801/2343 Cost: 0.001149
+Epoch   30/25000 Batch 2001/2343 Cost: 0.001064
+Epoch   30/25000 Batch 2201/2343 Cost: 0.000977
+Validation loss: 0.001242
+EarlyStopping counter: 2 out of 50
+Epoch   31/25000 Batch 1/2343 Cost: 0.001176
+Epoch   31/25000 Batch 201/2343 Cost: 0.001209
+Epoch   31/25000 Batch 401/2343 Cost: 0.001020
+Epoch   31/25000 Batch 601/2343 Cost: 0.001268
+Epoch   31/25000 Batch 801/2343 Cost: 0.001155
+Epoch   31/25000 Batch 1001/2343 Cost: 0.000998
+Epoch   31/25000 Batch 1201/2343 Cost: 0.001217
+Epoch   31/25000 Batch 1401/2343 Cost: 0.001217
+Epoch   31/25000 Batch 1601/2343 Cost: 0.001128
+Epoch   31/25000 Batch 1801/2343 Cost: 0.001126
+Epoch   31/25000 Batch 2001/2343 Cost: 0.001230
+Epoch   31/25000 Batch 2201/2343 Cost: 0.001062
+Validation loss: 0.001157
+saving the best model!
+Epoch   32/25000 Batch 1/2343 Cost: 0.000942
+Epoch   32/25000 Batch 201/2343 Cost: 0.001165
+Epoch   32/25000 Batch 401/2343 Cost: 0.001091
+Epoch   32/25000 Batch 601/2343 Cost: 0.000972
+Epoch   32/25000 Batch 801/2343 Cost: 0.001216
+Epoch   32/25000 Batch 1001/2343 Cost: 0.001059
+Epoch   32/25000 Batch 1201/2343 Cost: 0.001137
+Epoch   32/25000 Batch 1401/2343 Cost: 0.001052
+Epoch   32/25000 Batch 1601/2343 Cost: 0.000988
+Epoch   32/25000 Batch 1801/2343 Cost: 0.001273
+Epoch   32/25000 Batch 2001/2343 Cost: 0.001227
+Epoch   32/25000 Batch 2201/2343 Cost: 0.001176
+Validation loss: 0.001166
+EarlyStopping counter: 1 out of 50
+Epoch   33/25000 Batch 1/2343 Cost: 0.001004
+Epoch   33/25000 Batch 201/2343 Cost: 0.001141
+Epoch   33/25000 Batch 401/2343 Cost: 0.001096
+Epoch   33/25000 Batch 601/2343 Cost: 0.001186
+Epoch   33/25000 Batch 801/2343 Cost: 0.001069
+Epoch   33/25000 Batch 1001/2343 Cost: 0.001084
+Epoch   33/25000 Batch 1201/2343 Cost: 0.001181
+Epoch   33/25000 Batch 1401/2343 Cost: 0.001155
+Epoch   33/25000 Batch 1601/2343 Cost: 0.001044
+Epoch   33/25000 Batch 1801/2343 Cost: 0.001132
+Epoch   33/25000 Batch 2001/2343 Cost: 0.001020
+Epoch   33/25000 Batch 2201/2343 Cost: 0.001269
+Validation loss: 0.001155
+saving the best model!
+Epoch   34/25000 Batch 1/2343 Cost: 0.001166
+Epoch   34/25000 Batch 201/2343 Cost: 0.001365
+Epoch   34/25000 Batch 401/2343 Cost: 0.001163
+Epoch   34/25000 Batch 601/2343 Cost: 0.001078
+Epoch   34/25000 Batch 801/2343 Cost: 0.001203
+Epoch   34/25000 Batch 1001/2343 Cost: 0.001063
+Epoch   34/25000 Batch 1201/2343 Cost: 0.001147
+Epoch   34/25000 Batch 1401/2343 Cost: 0.000945
+Epoch   34/25000 Batch 1601/2343 Cost: 0.001122
+Epoch   34/25000 Batch 1801/2343 Cost: 0.000944
+Epoch   34/25000 Batch 2001/2343 Cost: 0.001116
+Epoch   34/25000 Batch 2201/2343 Cost: 0.001303
+Validation loss: 0.001166
+EarlyStopping counter: 1 out of 50
+Epoch   35/25000 Batch 1/2343 Cost: 0.000986
+Epoch   35/25000 Batch 201/2343 Cost: 0.001062
+Epoch   35/25000 Batch 401/2343 Cost: 0.001142
+Epoch   35/25000 Batch 601/2343 Cost: 0.001242
+Epoch   35/25000 Batch 801/2343 Cost: 0.001033
+Epoch   35/25000 Batch 1001/2343 Cost: 0.001072
+Epoch   35/25000 Batch 1201/2343 Cost: 0.000923
+Epoch   35/25000 Batch 1401/2343 Cost: 0.001150
+Epoch   35/25000 Batch 1601/2343 Cost: 0.001118
+Epoch   35/25000 Batch 1801/2343 Cost: 0.001113
+Epoch   35/25000 Batch 2001/2343 Cost: 0.001174
+Epoch   35/25000 Batch 2201/2343 Cost: 0.001119
+Validation loss: 0.001172
+EarlyStopping counter: 2 out of 50
+Epoch   36/25000 Batch 1/2343 Cost: 0.001173
+Epoch   36/25000 Batch 201/2343 Cost: 0.001123
+Epoch   36/25000 Batch 401/2343 Cost: 0.001198
+Epoch   36/25000 Batch 601/2343 Cost: 0.000988
+Epoch   36/25000 Batch 801/2343 Cost: 0.001103
+Epoch   36/25000 Batch 1001/2343 Cost: 0.001090
+Epoch   36/25000 Batch 1201/2343 Cost: 0.001183
+Epoch   36/25000 Batch 1401/2343 Cost: 0.001175
+Epoch   36/25000 Batch 1601/2343 Cost: 0.001266
+Epoch   36/25000 Batch 1801/2343 Cost: 0.001143
+Epoch   36/25000 Batch 2001/2343 Cost: 0.001140
+Epoch   36/25000 Batch 2201/2343 Cost: 0.001156
+Validation loss: 0.001168
+EarlyStopping counter: 3 out of 50
+Epoch   37/25000 Batch 1/2343 Cost: 0.001040
+Epoch   37/25000 Batch 201/2343 Cost: 0.001183
+Epoch   37/25000 Batch 401/2343 Cost: 0.001126
+Epoch   37/25000 Batch 601/2343 Cost: 0.000913
+Epoch   37/25000 Batch 801/2343 Cost: 0.001024
+Epoch   37/25000 Batch 1001/2343 Cost: 0.000976
+Epoch   37/25000 Batch 1201/2343 Cost: 0.001186
+Epoch   37/25000 Batch 1401/2343 Cost: 0.001083
+Epoch   37/25000 Batch 1601/2343 Cost: 0.001001
+Epoch   37/25000 Batch 1801/2343 Cost: 0.000986
+Epoch   37/25000 Batch 2001/2343 Cost: 0.001179
+Epoch   37/25000 Batch 2201/2343 Cost: 0.001147
+Validation loss: 0.001157
+EarlyStopping counter: 4 out of 50
+Epoch   38/25000 Batch 1/2343 Cost: 0.001094
+Epoch   38/25000 Batch 201/2343 Cost: 0.001042
+Epoch   38/25000 Batch 401/2343 Cost: 0.001034
+Epoch   38/25000 Batch 601/2343 Cost: 0.001115
+Epoch   38/25000 Batch 801/2343 Cost: 0.001257
+Epoch   38/25000 Batch 1001/2343 Cost: 0.001040
+Epoch   38/25000 Batch 1201/2343 Cost: 0.001174
+Epoch   38/25000 Batch 1401/2343 Cost: 0.001145
+Epoch   38/25000 Batch 1601/2343 Cost: 0.001100
+Epoch   38/25000 Batch 1801/2343 Cost: 0.001124
+Epoch   38/25000 Batch 2001/2343 Cost: 0.001133
+Epoch   38/25000 Batch 2201/2343 Cost: 0.000920
+Validation loss: 0.001203
+EarlyStopping counter: 5 out of 50
+Epoch   39/25000 Batch 1/2343 Cost: 0.001222
+Epoch   39/25000 Batch 201/2343 Cost: 0.001274
+Epoch   39/25000 Batch 401/2343 Cost: 0.001345
+Epoch   39/25000 Batch 601/2343 Cost: 0.001127
+Epoch   39/25000 Batch 801/2343 Cost: 0.001158
+Epoch   39/25000 Batch 1001/2343 Cost: 0.001133
+Epoch   39/25000 Batch 1201/2343 Cost: 0.001343
+Epoch   39/25000 Batch 1401/2343 Cost: 0.000883
+Epoch   39/25000 Batch 1601/2343 Cost: 0.001129
+Epoch   39/25000 Batch 1801/2343 Cost: 0.001007
+Epoch   39/25000 Batch 2001/2343 Cost: 0.001064
+Epoch   39/25000 Batch 2201/2343 Cost: 0.001136
+Validation loss: 0.001149
+saving the best model!
+Epoch   40/25000 Batch 1/2343 Cost: 0.001043
+Epoch   40/25000 Batch 201/2343 Cost: 0.001187
+Epoch   40/25000 Batch 401/2343 Cost: 0.001065
+Epoch   40/25000 Batch 601/2343 Cost: 0.001216
+Epoch   40/25000 Batch 801/2343 Cost: 0.001158
+Epoch   40/25000 Batch 1001/2343 Cost: 0.001146
+Epoch   40/25000 Batch 1201/2343 Cost: 0.001082
+Epoch   40/25000 Batch 1401/2343 Cost: 0.001193
+Epoch   40/25000 Batch 1601/2343 Cost: 0.001167
+Epoch   40/25000 Batch 1801/2343 Cost: 0.001115
+Epoch   40/25000 Batch 2001/2343 Cost: 0.001175
+Epoch   40/25000 Batch 2201/2343 Cost: 0.000967
+Validation loss: 0.001162
+EarlyStopping counter: 1 out of 50
+Epoch   41/25000 Batch 1/2343 Cost: 0.000980
+Epoch   41/25000 Batch 201/2343 Cost: 0.001233
+Epoch   41/25000 Batch 401/2343 Cost: 0.001241
+Epoch   41/25000 Batch 601/2343 Cost: 0.001033
+Epoch   41/25000 Batch 801/2343 Cost: 0.001340
+Epoch   41/25000 Batch 1001/2343 Cost: 0.001040
+Epoch   41/25000 Batch 1201/2343 Cost: 0.001117
+Epoch   41/25000 Batch 1401/2343 Cost: 0.000965
+Epoch   41/25000 Batch 1601/2343 Cost: 0.001089
+Epoch   41/25000 Batch 1801/2343 Cost: 0.001211
+Epoch   41/25000 Batch 2001/2343 Cost: 0.001086
+Epoch   41/25000 Batch 2201/2343 Cost: 0.001039
+Validation loss: 0.001214
+EarlyStopping counter: 2 out of 50
+Epoch   42/25000 Batch 1/2343 Cost: 0.001105
+Epoch   42/25000 Batch 201/2343 Cost: 0.001243
+Epoch   42/25000 Batch 401/2343 Cost: 0.001095
+Epoch   42/25000 Batch 601/2343 Cost: 0.001029
+Epoch   42/25000 Batch 801/2343 Cost: 0.000953
+Epoch   42/25000 Batch 1001/2343 Cost: 0.001160
+Epoch   42/25000 Batch 1201/2343 Cost: 0.001035
+Epoch   42/25000 Batch 1401/2343 Cost: 0.001025
+Epoch   42/25000 Batch 1601/2343 Cost: 0.001055
+Epoch   42/25000 Batch 1801/2343 Cost: 0.001084
+Epoch   42/25000 Batch 2001/2343 Cost: 0.000987
+Epoch   42/25000 Batch 2201/2343 Cost: 0.001096
+Validation loss: 0.001168
+EarlyStopping counter: 3 out of 50
+Epoch   43/25000 Batch 1/2343 Cost: 0.001107
+Epoch   43/25000 Batch 201/2343 Cost: 0.001162
+Epoch   43/25000 Batch 401/2343 Cost: 0.001179
+Epoch   43/25000 Batch 601/2343 Cost: 0.001085
+Epoch   43/25000 Batch 801/2343 Cost: 0.001204
+Epoch   43/25000 Batch 1001/2343 Cost: 0.000972
+Epoch   43/25000 Batch 1201/2343 Cost: 0.001190
+Epoch   43/25000 Batch 1401/2343 Cost: 0.000955
+Epoch   43/25000 Batch 1601/2343 Cost: 0.001032
+Epoch   43/25000 Batch 1801/2343 Cost: 0.001212
+Epoch   43/25000 Batch 2001/2343 Cost: 0.001051
+Epoch   43/25000 Batch 2201/2343 Cost: 0.001104
+Validation loss: 0.001155
+EarlyStopping counter: 4 out of 50
+Epoch   44/25000 Batch 1/2343 Cost: 0.001175
+Epoch   44/25000 Batch 201/2343 Cost: 0.001230
+Epoch   44/25000 Batch 401/2343 Cost: 0.001158
+Epoch   44/25000 Batch 601/2343 Cost: 0.001086
+Epoch   44/25000 Batch 801/2343 Cost: 0.001221
+Epoch   44/25000 Batch 1001/2343 Cost: 0.001276
+Epoch   44/25000 Batch 1201/2343 Cost: 0.001244
+Epoch   44/25000 Batch 1401/2343 Cost: 0.001054
+Epoch   44/25000 Batch 1601/2343 Cost: 0.001051
+Epoch   44/25000 Batch 1801/2343 Cost: 0.001031
+Epoch   44/25000 Batch 2001/2343 Cost: 0.000940
+Epoch   44/25000 Batch 2201/2343 Cost: 0.001207
+Validation loss: 0.001150
+EarlyStopping counter: 5 out of 50
+Epoch   45/25000 Batch 1/2343 Cost: 0.000980
+Epoch   45/25000 Batch 201/2343 Cost: 0.000941
+Epoch   45/25000 Batch 401/2343 Cost: 0.000951
+Epoch   45/25000 Batch 601/2343 Cost: 0.001141
+Epoch   45/25000 Batch 801/2343 Cost: 0.001134
+Epoch   45/25000 Batch 1001/2343 Cost: 0.001007
+Epoch   45/25000 Batch 1201/2343 Cost: 0.001072
+Epoch   45/25000 Batch 1401/2343 Cost: 0.001134
+Epoch   45/25000 Batch 1601/2343 Cost: 0.000936
+Epoch   45/25000 Batch 1801/2343 Cost: 0.000943
+Epoch   45/25000 Batch 2001/2343 Cost: 0.001320
+Epoch   45/25000 Batch 2201/2343 Cost: 0.001167
+Validation loss: 0.001156
+EarlyStopping counter: 6 out of 50
+Epoch   46/25000 Batch 1/2343 Cost: 0.001220
+Epoch   46/25000 Batch 201/2343 Cost: 0.000988
+Epoch   46/25000 Batch 401/2343 Cost: 0.000953
+Epoch   46/25000 Batch 601/2343 Cost: 0.001183
+Epoch   46/25000 Batch 801/2343 Cost: 0.000967
+Epoch   46/25000 Batch 1001/2343 Cost: 0.000970
+Epoch   46/25000 Batch 1201/2343 Cost: 0.001177
+Epoch   46/25000 Batch 1401/2343 Cost: 0.001084
+Epoch   46/25000 Batch 1601/2343 Cost: 0.001196
+Epoch   46/25000 Batch 1801/2343 Cost: 0.001131
+Epoch   46/25000 Batch 2001/2343 Cost: 0.001295
+Epoch   46/25000 Batch 2201/2343 Cost: 0.000896
+Validation loss: 0.001197
+EarlyStopping counter: 7 out of 50
+Epoch   47/25000 Batch 1/2343 Cost: 0.001200
+Epoch   47/25000 Batch 201/2343 Cost: 0.000957
+Epoch   47/25000 Batch 401/2343 Cost: 0.000936
+Epoch   47/25000 Batch 601/2343 Cost: 0.001165
+Epoch   47/25000 Batch 801/2343 Cost: 0.001026
+Epoch   47/25000 Batch 1001/2343 Cost: 0.001208
+Epoch   47/25000 Batch 1201/2343 Cost: 0.000974
+Epoch   47/25000 Batch 1401/2343 Cost: 0.001101
+Epoch   47/25000 Batch 1601/2343 Cost: 0.001175
+Epoch   47/25000 Batch 1801/2343 Cost: 0.001093
+Epoch   47/25000 Batch 2001/2343 Cost: 0.001102
+Epoch   47/25000 Batch 2201/2343 Cost: 0.001161
+Validation loss: 0.001181
+EarlyStopping counter: 8 out of 50
+Epoch   48/25000 Batch 1/2343 Cost: 0.001166
+Epoch   48/25000 Batch 201/2343 Cost: 0.001030
+Epoch   48/25000 Batch 401/2343 Cost: 0.001021
+Epoch   48/25000 Batch 601/2343 Cost: 0.001096
+Epoch   48/25000 Batch 801/2343 Cost: 0.001196
+Epoch   48/25000 Batch 1001/2343 Cost: 0.001025
+Epoch   48/25000 Batch 1201/2343 Cost: 0.001195
+Epoch   48/25000 Batch 1401/2343 Cost: 0.001040
+Epoch   48/25000 Batch 1601/2343 Cost: 0.000874
+Epoch   48/25000 Batch 1801/2343 Cost: 0.001031
+Epoch   48/25000 Batch 2001/2343 Cost: 0.001051
+Epoch   48/25000 Batch 2201/2343 Cost: 0.001210
+Validation loss: 0.001166
+EarlyStopping counter: 9 out of 50
+Epoch   49/25000 Batch 1/2343 Cost: 0.001020
+Epoch   49/25000 Batch 201/2343 Cost: 0.001121
+Epoch   49/25000 Batch 401/2343 Cost: 0.001185
+Epoch   49/25000 Batch 601/2343 Cost: 0.000992
+Epoch   49/25000 Batch 801/2343 Cost: 0.001077
+Epoch   49/25000 Batch 1001/2343 Cost: 0.001108
+Epoch   49/25000 Batch 1201/2343 Cost: 0.000962
+Epoch   49/25000 Batch 1401/2343 Cost: 0.001062
+Epoch   49/25000 Batch 1601/2343 Cost: 0.001187
+Epoch   49/25000 Batch 1801/2343 Cost: 0.001085
+Epoch   49/25000 Batch 2001/2343 Cost: 0.001091
+Epoch   49/25000 Batch 2201/2343 Cost: 0.001107
+Validation loss: 0.001158
+EarlyStopping counter: 10 out of 50
+Epoch   50/25000 Batch 1/2343 Cost: 0.001058
+Epoch   50/25000 Batch 201/2343 Cost: 0.001019
+Epoch   50/25000 Batch 401/2343 Cost: 0.001042
+Epoch   50/25000 Batch 601/2343 Cost: 0.001289
+Epoch   50/25000 Batch 801/2343 Cost: 0.000889
+Epoch   50/25000 Batch 1001/2343 Cost: 0.001121
+Epoch   50/25000 Batch 1201/2343 Cost: 0.001079
+Epoch   50/25000 Batch 1401/2343 Cost: 0.001067
+Epoch   50/25000 Batch 1601/2343 Cost: 0.001161
+Epoch   50/25000 Batch 1801/2343 Cost: 0.001078
+Epoch   50/25000 Batch 2001/2343 Cost: 0.001229
+Epoch   50/25000 Batch 2201/2343 Cost: 0.001081
+Validation loss: 0.001157
+EarlyStopping counter: 11 out of 50
+Epoch   51/25000 Batch 1/2343 Cost: 0.001062
+Epoch   51/25000 Batch 201/2343 Cost: 0.001114
+Epoch   51/25000 Batch 401/2343 Cost: 0.001008
+Epoch   51/25000 Batch 601/2343 Cost: 0.001264
+Epoch   51/25000 Batch 801/2343 Cost: 0.001224
+Epoch   51/25000 Batch 1001/2343 Cost: 0.001215
+Epoch   51/25000 Batch 1201/2343 Cost: 0.001019
+Epoch   51/25000 Batch 1401/2343 Cost: 0.001114
+Epoch   51/25000 Batch 1601/2343 Cost: 0.000995
+Epoch   51/25000 Batch 1801/2343 Cost: 0.001169
+Epoch   51/25000 Batch 2001/2343 Cost: 0.001124
+Epoch   51/25000 Batch 2201/2343 Cost: 0.001083
+Validation loss: 0.001162
+EarlyStopping counter: 12 out of 50
+Epoch   52/25000 Batch 1/2343 Cost: 0.001174
+Epoch   52/25000 Batch 201/2343 Cost: 0.001026
+Epoch   52/25000 Batch 401/2343 Cost: 0.001113
+Epoch   52/25000 Batch 601/2343 Cost: 0.001309
+Epoch   52/25000 Batch 801/2343 Cost: 0.001016
+Epoch   52/25000 Batch 1001/2343 Cost: 0.001133
+Epoch   52/25000 Batch 1201/2343 Cost: 0.000995
+Epoch   52/25000 Batch 1401/2343 Cost: 0.001103
+Epoch   52/25000 Batch 1601/2343 Cost: 0.001143
+Epoch   52/25000 Batch 1801/2343 Cost: 0.001125
+Epoch   52/25000 Batch 2001/2343 Cost: 0.001141
+Epoch   52/25000 Batch 2201/2343 Cost: 0.001071
+Validation loss: 0.001174
+EarlyStopping counter: 13 out of 50
+Epoch   53/25000 Batch 1/2343 Cost: 0.001127
+Epoch   53/25000 Batch 201/2343 Cost: 0.001233
+Epoch   53/25000 Batch 401/2343 Cost: 0.000976
+Epoch   53/25000 Batch 601/2343 Cost: 0.001213
+Epoch   53/25000 Batch 801/2343 Cost: 0.001058
+Epoch   53/25000 Batch 1001/2343 Cost: 0.000962
+Epoch   53/25000 Batch 1201/2343 Cost: 0.001176
+Epoch   53/25000 Batch 1401/2343 Cost: 0.001118
+Epoch   53/25000 Batch 1601/2343 Cost: 0.001098
+Epoch   53/25000 Batch 1801/2343 Cost: 0.001199
+Epoch   53/25000 Batch 2001/2343 Cost: 0.001129
+Epoch   53/25000 Batch 2201/2343 Cost: 0.001037
+Validation loss: 0.001163
+EarlyStopping counter: 14 out of 50
+Epoch   54/25000 Batch 1/2343 Cost: 0.001157
+Epoch   54/25000 Batch 201/2343 Cost: 0.001006
+Epoch   54/25000 Batch 401/2343 Cost: 0.001339
+Epoch   54/25000 Batch 601/2343 Cost: 0.000999
+Epoch   54/25000 Batch 801/2343 Cost: 0.001114
+Epoch   54/25000 Batch 1001/2343 Cost: 0.001071
+Epoch   54/25000 Batch 1201/2343 Cost: 0.001006
+Epoch   54/25000 Batch 1401/2343 Cost: 0.001259
+Epoch   54/25000 Batch 1601/2343 Cost: 0.001056
+Epoch   54/25000 Batch 1801/2343 Cost: 0.001119
+Epoch   54/25000 Batch 2001/2343 Cost: 0.001185
+Epoch   54/25000 Batch 2201/2343 Cost: 0.001103
+Validation loss: 0.001214
+EarlyStopping counter: 15 out of 50
+Epoch   55/25000 Batch 1/2343 Cost: 0.001120
+Epoch   55/25000 Batch 201/2343 Cost: 0.001110
+Epoch   55/25000 Batch 401/2343 Cost: 0.001055
+Epoch   55/25000 Batch 601/2343 Cost: 0.001271
+Epoch   55/25000 Batch 801/2343 Cost: 0.001061
+Epoch   55/25000 Batch 1001/2343 Cost: 0.000811
+Epoch   55/25000 Batch 1201/2343 Cost: 0.001114
+Epoch   55/25000 Batch 1401/2343 Cost: 0.001018
+Epoch   55/25000 Batch 1601/2343 Cost: 0.001053
+Epoch   55/25000 Batch 1801/2343 Cost: 0.001100
+Epoch   55/25000 Batch 2001/2343 Cost: 0.000985
+Epoch   55/25000 Batch 2201/2343 Cost: 0.001130
+Validation loss: 0.001180
+EarlyStopping counter: 16 out of 50
+Epoch   56/25000 Batch 1/2343 Cost: 0.001108
+Epoch   56/25000 Batch 201/2343 Cost: 0.001233
+Epoch   56/25000 Batch 401/2343 Cost: 0.001035
+Epoch   56/25000 Batch 601/2343 Cost: 0.001149
+Epoch   56/25000 Batch 801/2343 Cost: 0.000967
+Epoch   56/25000 Batch 1001/2343 Cost: 0.001031
+Epoch   56/25000 Batch 1201/2343 Cost: 0.000849
+Epoch   56/25000 Batch 1401/2343 Cost: 0.000997
+Epoch   56/25000 Batch 1601/2343 Cost: 0.000970
+Epoch   56/25000 Batch 1801/2343 Cost: 0.001128
+Epoch   56/25000 Batch 2001/2343 Cost: 0.001034
+Epoch   56/25000 Batch 2201/2343 Cost: 0.001110
+Validation loss: 0.001170
+EarlyStopping counter: 17 out of 50
+Epoch   57/25000 Batch 1/2343 Cost: 0.001115
+Epoch   57/25000 Batch 201/2343 Cost: 0.001097
+Epoch   57/25000 Batch 401/2343 Cost: 0.001073
+Epoch   57/25000 Batch 601/2343 Cost: 0.001383
+Epoch   57/25000 Batch 801/2343 Cost: 0.001051
+Epoch   57/25000 Batch 1001/2343 Cost: 0.000868
+Epoch   57/25000 Batch 1201/2343 Cost: 0.001100
+Epoch   57/25000 Batch 1401/2343 Cost: 0.001034
+Epoch   57/25000 Batch 1601/2343 Cost: 0.001041
+Epoch   57/25000 Batch 1801/2343 Cost: 0.000923
+Epoch   57/25000 Batch 2001/2343 Cost: 0.001064
+Epoch   57/25000 Batch 2201/2343 Cost: 0.001019
+Validation loss: 0.001167
+EarlyStopping counter: 18 out of 50
+Epoch   58/25000 Batch 1/2343 Cost: 0.001001
+Epoch   58/25000 Batch 201/2343 Cost: 0.001059
+Epoch   58/25000 Batch 401/2343 Cost: 0.001035
+Epoch   58/25000 Batch 601/2343 Cost: 0.001021
+Epoch   58/25000 Batch 801/2343 Cost: 0.001084
+Epoch   58/25000 Batch 1001/2343 Cost: 0.001080
+Epoch   58/25000 Batch 1201/2343 Cost: 0.001118
+Epoch   58/25000 Batch 1401/2343 Cost: 0.000925
+Epoch   58/25000 Batch 1601/2343 Cost: 0.001139
+Epoch   58/25000 Batch 1801/2343 Cost: 0.001012
+Epoch   58/25000 Batch 2001/2343 Cost: 0.001104
+Epoch   58/25000 Batch 2201/2343 Cost: 0.001095
+Validation loss: 0.001156
+EarlyStopping counter: 19 out of 50
+Epoch   59/25000 Batch 1/2343 Cost: 0.001057
+Epoch   59/25000 Batch 201/2343 Cost: 0.001115
+Epoch   59/25000 Batch 401/2343 Cost: 0.001036
+Epoch   59/25000 Batch 601/2343 Cost: 0.001107
+Epoch   59/25000 Batch 801/2343 Cost: 0.001046
+Epoch   59/25000 Batch 1001/2343 Cost: 0.001037
+Epoch   59/25000 Batch 1201/2343 Cost: 0.000986
+Epoch   59/25000 Batch 1401/2343 Cost: 0.001067
+Epoch   59/25000 Batch 1601/2343 Cost: 0.001003
+Epoch   59/25000 Batch 1801/2343 Cost: 0.001073
+Epoch   59/25000 Batch 2001/2343 Cost: 0.001147
+Epoch   59/25000 Batch 2201/2343 Cost: 0.001084
+Validation loss: 0.001186
+EarlyStopping counter: 20 out of 50
+Epoch   60/25000 Batch 1/2343 Cost: 0.001173
+Epoch   60/25000 Batch 201/2343 Cost: 0.001225
+Epoch   60/25000 Batch 401/2343 Cost: 0.001075
+Epoch   60/25000 Batch 601/2343 Cost: 0.001001
+Epoch   60/25000 Batch 801/2343 Cost: 0.001282
+Epoch   60/25000 Batch 1001/2343 Cost: 0.001202
+Epoch   60/25000 Batch 1201/2343 Cost: 0.001211
+Epoch   60/25000 Batch 1401/2343 Cost: 0.001208
+Epoch   60/25000 Batch 1601/2343 Cost: 0.000964
+Epoch   60/25000 Batch 1801/2343 Cost: 0.001034
+Epoch   60/25000 Batch 2001/2343 Cost: 0.000912
+Epoch   60/25000 Batch 2201/2343 Cost: 0.001115
+Validation loss: 0.001169
+EarlyStopping counter: 21 out of 50
+Epoch   61/25000 Batch 1/2343 Cost: 0.001154
+Epoch   61/25000 Batch 201/2343 Cost: 0.001153
+Epoch   61/25000 Batch 401/2343 Cost: 0.001105
+Epoch   61/25000 Batch 601/2343 Cost: 0.000993
+Epoch   61/25000 Batch 801/2343 Cost: 0.001227
+Epoch   61/25000 Batch 1001/2343 Cost: 0.000891
+Epoch   61/25000 Batch 1201/2343 Cost: 0.001080
+Epoch   61/25000 Batch 1401/2343 Cost: 0.001182
+Epoch   61/25000 Batch 1601/2343 Cost: 0.001169
+Epoch   61/25000 Batch 1801/2343 Cost: 0.001091
+Epoch   61/25000 Batch 2001/2343 Cost: 0.001064
+Epoch   61/25000 Batch 2201/2343 Cost: 0.001119
+Validation loss: 0.001175
+EarlyStopping counter: 22 out of 50
+Epoch   62/25000 Batch 1/2343 Cost: 0.001066
+Epoch   62/25000 Batch 201/2343 Cost: 0.001163
+Epoch   62/25000 Batch 401/2343 Cost: 0.001214
+Epoch   62/25000 Batch 601/2343 Cost: 0.001082
+Epoch   62/25000 Batch 801/2343 Cost: 0.001002
+Epoch   62/25000 Batch 1001/2343 Cost: 0.001041
+Epoch   62/25000 Batch 1201/2343 Cost: 0.001115
+Epoch   62/25000 Batch 1401/2343 Cost: 0.001198
+Epoch   62/25000 Batch 1601/2343 Cost: 0.001047
+Epoch   62/25000 Batch 1801/2343 Cost: 0.001078
+Epoch   62/25000 Batch 2001/2343 Cost: 0.001210
+Epoch   62/25000 Batch 2201/2343 Cost: 0.001161
+Validation loss: 0.001169
+EarlyStopping counter: 23 out of 50
+Epoch   63/25000 Batch 1/2343 Cost: 0.001128
+Epoch   63/25000 Batch 201/2343 Cost: 0.001033
+Epoch   63/25000 Batch 401/2343 Cost: 0.001002
+Epoch   63/25000 Batch 601/2343 Cost: 0.001066
+Epoch   63/25000 Batch 801/2343 Cost: 0.000934
+Epoch   63/25000 Batch 1001/2343 Cost: 0.000996
+Epoch   63/25000 Batch 1201/2343 Cost: 0.001109
+Epoch   63/25000 Batch 1401/2343 Cost: 0.000979
+Epoch   63/25000 Batch 1601/2343 Cost: 0.001006
+Epoch   63/25000 Batch 1801/2343 Cost: 0.000939
+Epoch   63/25000 Batch 2001/2343 Cost: 0.001301
+Epoch   63/25000 Batch 2201/2343 Cost: 0.001118
+Validation loss: 0.001151
+EarlyStopping counter: 24 out of 50
+Epoch   64/25000 Batch 1/2343 Cost: 0.001073
+Epoch   64/25000 Batch 201/2343 Cost: 0.001165
+Epoch   64/25000 Batch 401/2343 Cost: 0.000962
+Epoch   64/25000 Batch 601/2343 Cost: 0.000981
+Epoch   64/25000 Batch 801/2343 Cost: 0.001121
+Epoch   64/25000 Batch 1001/2343 Cost: 0.001057
+Epoch   64/25000 Batch 1201/2343 Cost: 0.001003
+Epoch   64/25000 Batch 1401/2343 Cost: 0.001061
+Epoch   64/25000 Batch 1601/2343 Cost: 0.001163
+Epoch   64/25000 Batch 1801/2343 Cost: 0.001098
+Epoch   64/25000 Batch 2001/2343 Cost: 0.001199
+Epoch   64/25000 Batch 2201/2343 Cost: 0.001117
+Validation loss: 0.001166
+EarlyStopping counter: 25 out of 50
+Epoch   65/25000 Batch 1/2343 Cost: 0.001117
+Epoch   65/25000 Batch 201/2343 Cost: 0.000900
+Epoch   65/25000 Batch 401/2343 Cost: 0.001080
+Epoch   65/25000 Batch 601/2343 Cost: 0.001019
+Epoch   65/25000 Batch 801/2343 Cost: 0.000976
+Epoch   65/25000 Batch 1001/2343 Cost: 0.001153
+Epoch   65/25000 Batch 1201/2343 Cost: 0.001064
+Epoch   65/25000 Batch 1401/2343 Cost: 0.001026
+Epoch   65/25000 Batch 1601/2343 Cost: 0.000878
+Epoch   65/25000 Batch 1801/2343 Cost: 0.001160
+Epoch   65/25000 Batch 2001/2343 Cost: 0.001214
+Epoch   65/25000 Batch 2201/2343 Cost: 0.001136
+Validation loss: 0.001151
+EarlyStopping counter: 26 out of 50
+Epoch   66/25000 Batch 1/2343 Cost: 0.001049
+Epoch   66/25000 Batch 201/2343 Cost: 0.001103
+Epoch   66/25000 Batch 401/2343 Cost: 0.001029
+Epoch   66/25000 Batch 601/2343 Cost: 0.000997
+Epoch   66/25000 Batch 801/2343 Cost: 0.001181
+Epoch   66/25000 Batch 1001/2343 Cost: 0.000970
+Epoch   66/25000 Batch 1201/2343 Cost: 0.001155
+Epoch   66/25000 Batch 1401/2343 Cost: 0.001084
+Epoch   66/25000 Batch 1601/2343 Cost: 0.001092
+Epoch   66/25000 Batch 1801/2343 Cost: 0.001006
+Epoch   66/25000 Batch 2001/2343 Cost: 0.001025
+Epoch   66/25000 Batch 2201/2343 Cost: 0.001127
+Validation loss: 0.001155
+EarlyStopping counter: 27 out of 50
+Epoch   67/25000 Batch 1/2343 Cost: 0.001045
+Epoch   67/25000 Batch 201/2343 Cost: 0.001037
+Epoch   67/25000 Batch 401/2343 Cost: 0.001149
+Epoch   67/25000 Batch 601/2343 Cost: 0.001029
+Epoch   67/25000 Batch 801/2343 Cost: 0.001119
+Epoch   67/25000 Batch 1001/2343 Cost: 0.001072
+Epoch   67/25000 Batch 1201/2343 Cost: 0.001215
+Epoch   67/25000 Batch 1401/2343 Cost: 0.001002
+Epoch   67/25000 Batch 1601/2343 Cost: 0.001038
+Epoch   67/25000 Batch 1801/2343 Cost: 0.001163
+Epoch   67/25000 Batch 2001/2343 Cost: 0.001060
+Epoch   67/25000 Batch 2201/2343 Cost: 0.001134
+Validation loss: 0.001153
+EarlyStopping counter: 28 out of 50
+Epoch   68/25000 Batch 1/2343 Cost: 0.000963
+Epoch   68/25000 Batch 201/2343 Cost: 0.001114
+Epoch   68/25000 Batch 401/2343 Cost: 0.001006
+Epoch   68/25000 Batch 601/2343 Cost: 0.001036
+Epoch   68/25000 Batch 801/2343 Cost: 0.001038
+Epoch   68/25000 Batch 1001/2343 Cost: 0.001096
+Epoch   68/25000 Batch 1201/2343 Cost: 0.000965
+Epoch   68/25000 Batch 1401/2343 Cost: 0.001013
+Epoch   68/25000 Batch 1601/2343 Cost: 0.000981
+Epoch   68/25000 Batch 1801/2343 Cost: 0.001088
+Epoch   68/25000 Batch 2001/2343 Cost: 0.001044
+Epoch   68/25000 Batch 2201/2343 Cost: 0.001173
+Validation loss: 0.001165
+EarlyStopping counter: 29 out of 50
+Epoch   69/25000 Batch 1/2343 Cost: 0.000985
+Epoch   69/25000 Batch 201/2343 Cost: 0.000972
+Epoch   69/25000 Batch 401/2343 Cost: 0.001057
+Epoch   69/25000 Batch 601/2343 Cost: 0.001019
+Epoch   69/25000 Batch 801/2343 Cost: 0.001043
+Epoch   69/25000 Batch 1001/2343 Cost: 0.001069
+Epoch   69/25000 Batch 1201/2343 Cost: 0.001123
+Epoch   69/25000 Batch 1401/2343 Cost: 0.001230
+Epoch   69/25000 Batch 1601/2343 Cost: 0.001058
+Epoch   69/25000 Batch 1801/2343 Cost: 0.001180
+Epoch   69/25000 Batch 2001/2343 Cost: 0.001102
+Epoch   69/25000 Batch 2201/2343 Cost: 0.001073
+Validation loss: 0.001163
+EarlyStopping counter: 30 out of 50
+Epoch   70/25000 Batch 1/2343 Cost: 0.000970
+Epoch   70/25000 Batch 201/2343 Cost: 0.001044
+Epoch   70/25000 Batch 401/2343 Cost: 0.001020
+Epoch   70/25000 Batch 601/2343 Cost: 0.001204
+Epoch   70/25000 Batch 801/2343 Cost: 0.000995
+Epoch   70/25000 Batch 1001/2343 Cost: 0.001022
+Epoch   70/25000 Batch 1201/2343 Cost: 0.000936
+Epoch   70/25000 Batch 1401/2343 Cost: 0.001189
+Epoch   70/25000 Batch 1601/2343 Cost: 0.001059
+Epoch   70/25000 Batch 1801/2343 Cost: 0.001047
+Epoch   70/25000 Batch 2001/2343 Cost: 0.000943
+Epoch   70/25000 Batch 2201/2343 Cost: 0.001105
+Validation loss: 0.001151
+EarlyStopping counter: 31 out of 50
+Epoch   71/25000 Batch 1/2343 Cost: 0.001222
+Epoch   71/25000 Batch 201/2343 Cost: 0.001031
+Epoch   71/25000 Batch 401/2343 Cost: 0.001112
+Epoch   71/25000 Batch 601/2343 Cost: 0.001088
+Epoch   71/25000 Batch 801/2343 Cost: 0.001221
+Epoch   71/25000 Batch 1001/2343 Cost: 0.000876
+Epoch   71/25000 Batch 1201/2343 Cost: 0.001131
+Epoch   71/25000 Batch 1401/2343 Cost: 0.001164
+Epoch   71/25000 Batch 1601/2343 Cost: 0.001116
+Epoch   71/25000 Batch 1801/2343 Cost: 0.001126
+Epoch   71/25000 Batch 2001/2343 Cost: 0.001067
+Epoch   71/25000 Batch 2201/2343 Cost: 0.000872
+Validation loss: 0.001158
+EarlyStopping counter: 32 out of 50
+Epoch   72/25000 Batch 1/2343 Cost: 0.000983
+Epoch   72/25000 Batch 201/2343 Cost: 0.001060
+Epoch   72/25000 Batch 401/2343 Cost: 0.000965
+Epoch   72/25000 Batch 601/2343 Cost: 0.001069
+Epoch   72/25000 Batch 801/2343 Cost: 0.000943
+Epoch   72/25000 Batch 1001/2343 Cost: 0.001069
+Epoch   72/25000 Batch 1201/2343 Cost: 0.001057
+Epoch   72/25000 Batch 1401/2343 Cost: 0.001086
+Epoch   72/25000 Batch 1601/2343 Cost: 0.001007
+Epoch   72/25000 Batch 1801/2343 Cost: 0.001022
+Epoch   72/25000 Batch 2001/2343 Cost: 0.000866
+Epoch   72/25000 Batch 2201/2343 Cost: 0.000867
+Validation loss: 0.001154
+EarlyStopping counter: 33 out of 50
+Epoch   73/25000 Batch 1/2343 Cost: 0.001104
+Epoch   73/25000 Batch 201/2343 Cost: 0.000886
+Epoch   73/25000 Batch 401/2343 Cost: 0.001110
+Epoch   73/25000 Batch 601/2343 Cost: 0.001229
+Epoch   73/25000 Batch 801/2343 Cost: 0.001086
+Epoch   73/25000 Batch 1001/2343 Cost: 0.001075
+Epoch   73/25000 Batch 1201/2343 Cost: 0.000931
+Epoch   73/25000 Batch 1401/2343 Cost: 0.001307
+Epoch   73/25000 Batch 1601/2343 Cost: 0.000957
+Epoch   73/25000 Batch 1801/2343 Cost: 0.001040
+Epoch   73/25000 Batch 2001/2343 Cost: 0.001182
+Epoch   73/25000 Batch 2201/2343 Cost: 0.001185
+Validation loss: 0.001161
+EarlyStopping counter: 34 out of 50
+Epoch   74/25000 Batch 1/2343 Cost: 0.001170
+Epoch   74/25000 Batch 201/2343 Cost: 0.000919
+Epoch   74/25000 Batch 401/2343 Cost: 0.001099
+Epoch   74/25000 Batch 601/2343 Cost: 0.001110
+Epoch   74/25000 Batch 801/2343 Cost: 0.001147
+Epoch   74/25000 Batch 1001/2343 Cost: 0.001040
+Epoch   74/25000 Batch 1201/2343 Cost: 0.001024
+Epoch   74/25000 Batch 1401/2343 Cost: 0.001018
+Epoch   74/25000 Batch 1601/2343 Cost: 0.001018
+Epoch   74/25000 Batch 1801/2343 Cost: 0.001224
+Epoch   74/25000 Batch 2001/2343 Cost: 0.001130
+Epoch   74/25000 Batch 2201/2343 Cost: 0.001054
+Validation loss: 0.001197
+EarlyStopping counter: 35 out of 50
+Epoch   75/25000 Batch 1/2343 Cost: 0.001050
+Epoch   75/25000 Batch 201/2343 Cost: 0.001150
+Epoch   75/25000 Batch 401/2343 Cost: 0.000901
+Epoch   75/25000 Batch 601/2343 Cost: 0.001064
+Epoch   75/25000 Batch 801/2343 Cost: 0.001007
+Epoch   75/25000 Batch 1001/2343 Cost: 0.001114
+Epoch   75/25000 Batch 1201/2343 Cost: 0.000880
+Epoch   75/25000 Batch 1401/2343 Cost: 0.000993
+Epoch   75/25000 Batch 1601/2343 Cost: 0.001124
+Epoch   75/25000 Batch 1801/2343 Cost: 0.001178
+Epoch   75/25000 Batch 2001/2343 Cost: 0.001168
+Epoch   75/25000 Batch 2201/2343 Cost: 0.001124
+Validation loss: 0.001171
+EarlyStopping counter: 36 out of 50
+Epoch   76/25000 Batch 1/2343 Cost: 0.001096
+Epoch   76/25000 Batch 201/2343 Cost: 0.001156
+Epoch   76/25000 Batch 401/2343 Cost: 0.001094
+Epoch   76/25000 Batch 601/2343 Cost: 0.001138
+Epoch   76/25000 Batch 801/2343 Cost: 0.001155
+Epoch   76/25000 Batch 1001/2343 Cost: 0.000975
+Epoch   76/25000 Batch 1201/2343 Cost: 0.000975
+Epoch   76/25000 Batch 1401/2343 Cost: 0.001170
+Epoch   76/25000 Batch 1601/2343 Cost: 0.000896
+Epoch   76/25000 Batch 1801/2343 Cost: 0.001064
+Epoch   76/25000 Batch 2001/2343 Cost: 0.001096
+Epoch   76/25000 Batch 2201/2343 Cost: 0.000966
+Validation loss: 0.001195
+EarlyStopping counter: 37 out of 50
+Epoch   77/25000 Batch 1/2343 Cost: 0.001222
+Epoch   77/25000 Batch 201/2343 Cost: 0.001033
+Epoch   77/25000 Batch 401/2343 Cost: 0.001121
+Epoch   77/25000 Batch 601/2343 Cost: 0.000969
+Epoch   77/25000 Batch 801/2343 Cost: 0.001050
+Epoch   77/25000 Batch 1001/2343 Cost: 0.001125
+Epoch   77/25000 Batch 1201/2343 Cost: 0.000980
+Epoch   77/25000 Batch 1401/2343 Cost: 0.001025
+Epoch   77/25000 Batch 1601/2343 Cost: 0.001044
+Epoch   77/25000 Batch 1801/2343 Cost: 0.001077
+Epoch   77/25000 Batch 2001/2343 Cost: 0.000922
+Epoch   77/25000 Batch 2201/2343 Cost: 0.000983
+Validation loss: 0.001160
+EarlyStopping counter: 38 out of 50
+Epoch   78/25000 Batch 1/2343 Cost: 0.001037
+Epoch   78/25000 Batch 201/2343 Cost: 0.001037
+Epoch   78/25000 Batch 401/2343 Cost: 0.001175
+Epoch   78/25000 Batch 601/2343 Cost: 0.000962
+Epoch   78/25000 Batch 801/2343 Cost: 0.001130
+Epoch   78/25000 Batch 1001/2343 Cost: 0.001002
+Epoch   78/25000 Batch 1201/2343 Cost: 0.001027
+Epoch   78/25000 Batch 1401/2343 Cost: 0.001025
+Epoch   78/25000 Batch 1601/2343 Cost: 0.001120
+Epoch   78/25000 Batch 1801/2343 Cost: 0.001147
+Epoch   78/25000 Batch 2001/2343 Cost: 0.001006
+Epoch   78/25000 Batch 2201/2343 Cost: 0.001237
+Validation loss: 0.001173
+EarlyStopping counter: 39 out of 50
+Epoch   79/25000 Batch 1/2343 Cost: 0.001066
+Epoch   79/25000 Batch 201/2343 Cost: 0.001099
+Epoch   79/25000 Batch 401/2343 Cost: 0.000939
+Epoch   79/25000 Batch 601/2343 Cost: 0.001043
+Epoch   79/25000 Batch 801/2343 Cost: 0.000951
+Epoch   79/25000 Batch 1001/2343 Cost: 0.001020
+Epoch   79/25000 Batch 1201/2343 Cost: 0.001092
+Epoch   79/25000 Batch 1401/2343 Cost: 0.000933
+Epoch   79/25000 Batch 1601/2343 Cost: 0.000951
+Epoch   79/25000 Batch 1801/2343 Cost: 0.000836
+Epoch   79/25000 Batch 2001/2343 Cost: 0.000901
+Epoch   79/25000 Batch 2201/2343 Cost: 0.001019
+Validation loss: 0.001173
+EarlyStopping counter: 40 out of 50
+Epoch   80/25000 Batch 1/2343 Cost: 0.000930
+Epoch   80/25000 Batch 201/2343 Cost: 0.001053
+Epoch   80/25000 Batch 401/2343 Cost: 0.001041
+Epoch   80/25000 Batch 601/2343 Cost: 0.000858
+Epoch   80/25000 Batch 801/2343 Cost: 0.000987
+Epoch   80/25000 Batch 1001/2343 Cost: 0.001117
+Epoch   80/25000 Batch 1201/2343 Cost: 0.001066
+Epoch   80/25000 Batch 1401/2343 Cost: 0.001041
+Epoch   80/25000 Batch 1601/2343 Cost: 0.001076
+Epoch   80/25000 Batch 1801/2343 Cost: 0.001097
+Epoch   80/25000 Batch 2001/2343 Cost: 0.000964
+Epoch   80/25000 Batch 2201/2343 Cost: 0.000923
+Validation loss: 0.001190
+EarlyStopping counter: 41 out of 50
+Epoch   81/25000 Batch 1/2343 Cost: 0.001183
+Epoch   81/25000 Batch 201/2343 Cost: 0.001064
+Epoch   81/25000 Batch 401/2343 Cost: 0.001241
+Epoch   81/25000 Batch 601/2343 Cost: 0.001101
+Epoch   81/25000 Batch 801/2343 Cost: 0.001106
+Epoch   81/25000 Batch 1001/2343 Cost: 0.001080
+Epoch   81/25000 Batch 1201/2343 Cost: 0.001131
+Epoch   81/25000 Batch 1401/2343 Cost: 0.001088
+Epoch   81/25000 Batch 1601/2343 Cost: 0.001050
+Epoch   81/25000 Batch 1801/2343 Cost: 0.000954
+Epoch   81/25000 Batch 2001/2343 Cost: 0.001114
+Epoch   81/25000 Batch 2201/2343 Cost: 0.001113
+Validation loss: 0.001162
+EarlyStopping counter: 42 out of 50
+Epoch   82/25000 Batch 1/2343 Cost: 0.001034
+Epoch   82/25000 Batch 201/2343 Cost: 0.001103
+Epoch   82/25000 Batch 401/2343 Cost: 0.001027
+Epoch   82/25000 Batch 601/2343 Cost: 0.001037
+Epoch   82/25000 Batch 801/2343 Cost: 0.001083
+Epoch   82/25000 Batch 1001/2343 Cost: 0.001080
+Epoch   82/25000 Batch 1201/2343 Cost: 0.001248
+Epoch   82/25000 Batch 1401/2343 Cost: 0.000902
+Epoch   82/25000 Batch 1601/2343 Cost: 0.000961
+Epoch   82/25000 Batch 1801/2343 Cost: 0.001004
+Epoch   82/25000 Batch 2001/2343 Cost: 0.001113
+Epoch   82/25000 Batch 2201/2343 Cost: 0.001057
+Validation loss: 0.001155
+EarlyStopping counter: 43 out of 50
+Epoch   83/25000 Batch 1/2343 Cost: 0.000931
+Epoch   83/25000 Batch 201/2343 Cost: 0.001064
+Epoch   83/25000 Batch 401/2343 Cost: 0.001092
+Epoch   83/25000 Batch 601/2343 Cost: 0.001015
+Epoch   83/25000 Batch 801/2343 Cost: 0.000978
+Epoch   83/25000 Batch 1001/2343 Cost: 0.001097
+Epoch   83/25000 Batch 1201/2343 Cost: 0.001338
+Epoch   83/25000 Batch 1401/2343 Cost: 0.001116
+Epoch   83/25000 Batch 1601/2343 Cost: 0.001150
+Epoch   83/25000 Batch 1801/2343 Cost: 0.001128
+Epoch   83/25000 Batch 2001/2343 Cost: 0.001108
+Epoch   83/25000 Batch 2201/2343 Cost: 0.001180
+Validation loss: 0.001170
+EarlyStopping counter: 44 out of 50
+Epoch   84/25000 Batch 1/2343 Cost: 0.001037
+Epoch   84/25000 Batch 201/2343 Cost: 0.000980
+Epoch   84/25000 Batch 401/2343 Cost: 0.001039
+Epoch   84/25000 Batch 601/2343 Cost: 0.001116
+Epoch   84/25000 Batch 801/2343 Cost: 0.001020
+Epoch   84/25000 Batch 1001/2343 Cost: 0.001152
+Epoch   84/25000 Batch 1201/2343 Cost: 0.001098
+Epoch   84/25000 Batch 1401/2343 Cost: 0.001171
+Epoch   84/25000 Batch 1601/2343 Cost: 0.001085
+Epoch   84/25000 Batch 1801/2343 Cost: 0.001059
+Epoch   84/25000 Batch 2001/2343 Cost: 0.001167
+Epoch   84/25000 Batch 2201/2343 Cost: 0.001139
+Validation loss: 0.001162
+EarlyStopping counter: 45 out of 50
+Epoch   85/25000 Batch 1/2343 Cost: 0.000968
+Epoch   85/25000 Batch 201/2343 Cost: 0.001086
+Epoch   85/25000 Batch 401/2343 Cost: 0.000926
+Epoch   85/25000 Batch 601/2343 Cost: 0.001002
+Epoch   85/25000 Batch 801/2343 Cost: 0.000951
+Epoch   85/25000 Batch 1001/2343 Cost: 0.001094
+Epoch   85/25000 Batch 1201/2343 Cost: 0.001094
+Epoch   85/25000 Batch 1401/2343 Cost: 0.001092
+Epoch   85/25000 Batch 1601/2343 Cost: 0.001019
+Epoch   85/25000 Batch 1801/2343 Cost: 0.000893
+Epoch   85/25000 Batch 2001/2343 Cost: 0.001130
+Epoch   85/25000 Batch 2201/2343 Cost: 0.001088
+Validation loss: 0.001189
+EarlyStopping counter: 46 out of 50
+Epoch   86/25000 Batch 1/2343 Cost: 0.001073
+Epoch   86/25000 Batch 201/2343 Cost: 0.000961
+Epoch   86/25000 Batch 401/2343 Cost: 0.001107
+Epoch   86/25000 Batch 601/2343 Cost: 0.001146
+Epoch   86/25000 Batch 801/2343 Cost: 0.001012
+Epoch   86/25000 Batch 1001/2343 Cost: 0.000923
+Epoch   86/25000 Batch 1201/2343 Cost: 0.000953
+Epoch   86/25000 Batch 1401/2343 Cost: 0.001119
+Epoch   86/25000 Batch 1601/2343 Cost: 0.001121
+Epoch   86/25000 Batch 1801/2343 Cost: 0.000938
+Epoch   86/25000 Batch 2001/2343 Cost: 0.001041
+Epoch   86/25000 Batch 2201/2343 Cost: 0.001163
+Validation loss: 0.001158
+EarlyStopping counter: 47 out of 50
+Epoch   87/25000 Batch 1/2343 Cost: 0.000943
+Epoch   87/25000 Batch 201/2343 Cost: 0.000973
+Epoch   87/25000 Batch 401/2343 Cost: 0.001045
+Epoch   87/25000 Batch 601/2343 Cost: 0.000963
+Epoch   87/25000 Batch 801/2343 Cost: 0.001319
+Epoch   87/25000 Batch 1001/2343 Cost: 0.000930
+Epoch   87/25000 Batch 1201/2343 Cost: 0.000964
+Epoch   87/25000 Batch 1401/2343 Cost: 0.001040
+Epoch   87/25000 Batch 1601/2343 Cost: 0.001100
+Epoch   87/25000 Batch 1801/2343 Cost: 0.001015
+Epoch   87/25000 Batch 2001/2343 Cost: 0.001002
+Epoch   87/25000 Batch 2201/2343 Cost: 0.001185
+Validation loss: 0.001154
+EarlyStopping counter: 48 out of 50
+Epoch   88/25000 Batch 1/2343 Cost: 0.000988
+Epoch   88/25000 Batch 201/2343 Cost: 0.001104
+Epoch   88/25000 Batch 401/2343 Cost: 0.000973
+Epoch   88/25000 Batch 601/2343 Cost: 0.000991
+Epoch   88/25000 Batch 801/2343 Cost: 0.001106
+Epoch   88/25000 Batch 1001/2343 Cost: 0.000870
+Epoch   88/25000 Batch 1201/2343 Cost: 0.000964
+Epoch   88/25000 Batch 1401/2343 Cost: 0.000989
+Epoch   88/25000 Batch 1601/2343 Cost: 0.001059
+Epoch   88/25000 Batch 1801/2343 Cost: 0.001021
+Epoch   88/25000 Batch 2001/2343 Cost: 0.001164
+Epoch   88/25000 Batch 2201/2343 Cost: 0.001053
+Validation loss: 0.001178
+EarlyStopping counter: 49 out of 50
+Epoch   89/25000 Batch 1/2343 Cost: 0.000976
+Epoch   89/25000 Batch 201/2343 Cost: 0.000960
+Epoch   89/25000 Batch 401/2343 Cost: 0.000871
+Epoch   89/25000 Batch 601/2343 Cost: 0.001058
+Epoch   89/25000 Batch 801/2343 Cost: 0.001139
+Epoch   89/25000 Batch 1001/2343 Cost: 0.001275
+Epoch   89/25000 Batch 1201/2343 Cost: 0.000985
+Epoch   89/25000 Batch 1401/2343 Cost: 0.000975
+Epoch   89/25000 Batch 1601/2343 Cost: 0.001103
+Epoch   89/25000 Batch 1801/2343 Cost: 0.001114
+Epoch   89/25000 Batch 2001/2343 Cost: 0.001063
+Epoch   89/25000 Batch 2201/2343 Cost: 0.001103
+Validation loss: 0.001197
+EarlyStopping counter: 50 out of 50
