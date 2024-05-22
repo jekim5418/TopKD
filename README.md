@@ -8,7 +8,7 @@
 > Do Topological Characteristics Help in Knowledge Distillation?
 >
 >International Conference on Machine Learning (ICML) 2024\\
->Jungeun Kim*,  Junwon You*, Dongjin Lee*, Ha Young Kim, Jae-Hun Jung\\
+>Jungeun Kim*,  Junwon You*, Dongjin Lee*, Ha Young Kim, Jae-Hun Jung\
 >Yonsei University & POSTECH
 >
 
