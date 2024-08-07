@@ -1,7 +1,7 @@
 # Do Topological Characteristics Help in Knowledge Distillation?
 ## Accepted in ICML 2024
 
-[[Paper]](💥)
+[Paper[💥](https://proceedings.mlr.press/v235/kim24aj.html))
 
 ![architecture (1)](https://github.com/jekim5418/TopKD/assets/60121575/97a120bd-9245-4c41-9d0b-d04f9d4980ed)
 
