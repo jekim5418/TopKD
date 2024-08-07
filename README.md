@@ -118,16 +118,16 @@ Heterogeneous architectures
 <img width="673" alt="스크린샷 2024-05-22 오후 2 14 11" src="https://github.com/jekim5418/TopKD/assets/60121575/a78897d0-d744-48a6-bc4b-870d8a895653">
 
 ### Citation
-'''bash
+```text
 @InProceedings{pmlr-v235-kim24aj,
   title = 	 {Do Topological Characteristics Help in Knowledge Distillation?},
   author =       {Kim, Jungeun and You, Junwon and Lee, Dongjin and Kim, Ha Young and Jung, Jae-Hun},
   booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
   pages = 	 {24674--24693},
   year = 	 {2024}
-'''
+```
 
 ### Acknowledgement
-'''bash
+```bash
 This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (2023R1A2C200337911, RS-2023-00220762, 2021R1A2C3009648, NRF2021R1A6A1A1004294412, and RS-2023-00219980), and partly supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government (MSIT) (No.RS-2020-II201361, Artificial Intelligence Graduate School Program (Yonsei University) and No.2019-0-01906, Artificial Intelligence Graduate School Program (POSTECH)).
-'''
+```
