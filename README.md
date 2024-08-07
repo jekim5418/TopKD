@@ -111,11 +111,11 @@ Heterogeneous architectures
 
 **CIFAR-100:**
 
-<img width="689" alt="스크린샷 2024-05-22 오전 11 28 19" src="https://github.com/jekim5418/TopKD/assets/60121575/da2ede80-1380-4818-b8c2-a3b5d577a069">
+<img width="550" alt="스크린샷 2024-05-22 오전 11 28 19" src="https://github.com/jekim5418/TopKD/assets/60121575/da2ede80-1380-4818-b8c2-a3b5d577a069">
 
 **ImageNet-1K**
 
-<img width="673" alt="스크린샷 2024-05-22 오후 2 14 11" src="https://github.com/jekim5418/TopKD/assets/60121575/a78897d0-d744-48a6-bc4b-870d8a895653">
+<img width="550" alt="스크린샷 2024-05-22 오후 2 14 11" src="https://github.com/jekim5418/TopKD/assets/60121575/a78897d0-d744-48a6-bc4b-870d8a895653">
 
 ### Citation
 ```text
